@@ -8,7 +8,6 @@ driver:
 
 provisioner:
   name: chef_zero
-  environment: test
 
 platforms:
   - name: ubuntu-14.04
