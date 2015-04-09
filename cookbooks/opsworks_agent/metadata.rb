@@ -1,0 +1,7 @@
+name             'opsworks_agent'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures local_opsworks'
+long_description 'Installs/Configures local_opsworks'
+version          '0.1.0'
