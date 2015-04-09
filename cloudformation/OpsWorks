@@ -30,6 +30,10 @@
         "ServiceRoleArn": {
           "Fn::GetAtt": [ "OpsWorksServiceRole", "Arn"]            
         },
+         "ConfigurationManager" : {
+             "Name" : "Chef",
+             "Version" : "11.10"
+          },
         "DefaultInstanceProfileArn": {
           "Fn::GetAtt": [ "OpsWorksInstanceProfile", "Arn"]
         }
